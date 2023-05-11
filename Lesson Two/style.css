@@ -1,4 +1,11 @@
-body {
+ol:nth-child(1) { font-size: 20px; color: red; border: 1px solid blue;}
 
-    background-color: aqua;
-}
+ol:nth-child(1):hover { font-size: 30px; color: green; border: 1px solid red; cursor: pointer;}
+
+ol:nth-child(19) { font-size: 10px; color: silver; border: 1px solid grey; }
+
+ol:nth-child(19):hover { font-size: 30px; color: blue; border: 1px solid red; cursor: pointer;}
+
+ol:nth-child(32) { font-size: 30px; color: purple; border: 1px solid green; }
+
+ol:nth-child(32):hover { font-size: 50px; color: red; border: 1px solid red; cursor: pointer;}
